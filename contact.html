@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="stylesc.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="General.html">Home</a></li>
+                <li><a href="fruits.html">Fruits</a></li>
+                <li><a href="vegetables.html">Vegetables</a></li>
+                <li><a href="diets.html">Diets</a></li>
+                <li><a href="company.html">Company</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Fill out the form below to contact us.</p>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="region">Region of Origin:</label>
+                    <input type="text" id="region" name="region" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Diet Information</legend>
+                    <label for="meal-frequency">Meal Frequency:</label>
+                    <select id="meal-frequency" name="meal-frequency" required>
+                        <option value="">Select One</option>
+                        <option value="3">3 Meals per Day</option>
+                        <option value="4">4 Meals per Day</option>
+                        <option value="5">5 Meals per Day</option>
+                    </select>
+
+                    <label for="meal-type">Meal Type:</label>
+                    <input type="radio" id="heavy" name="meal-type" value="heavy">
+                    <label for="heavy">Heavy Meals</label>
+                    <input type="radio" id="light" name="meal-type" value="light">
+                    <label for="light">Light Meals</label>
+
+                    <label for="activities">Physical Activities:</label>
+                    <input type="text" id="activities" name="activities">
+
+                    <label for="blood-type">Blood Type:</label>
+                    <input type="text" id="blood-type" name="blood-type">
+
+                    <label for="allergies">Allergies:</label>
+                    <input type="text" id="allergies" name="allergies">
+                </fieldset>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weight-Loss Diets</p>
+    </footer>
+</body>
+</html>
